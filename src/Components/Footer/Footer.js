@@ -7,37 +7,41 @@ const Footer = () => {
       <section className='footer-wrapper'>
         <div className='footer-first'>
           <div className='footer-brand'>
-            <h3>Renglo</h3>
+            <h3>Renglobals</h3>
           </div>
-          <h3>About Renglo</h3>
+          <h5>About Renglo</h5>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat odio
-            molestiae magnam ab tempore ea vero autem animi voluptatem iure,
-            officia itaque maiores eaque architecto cum quibusdam! Numquam,
-            dolore nesciunt.
+            We are constantly driven to keep our promises of affordable housing
+            products with a singular mission to exceed expectations
           </p>
         </div>
 
         <div className='footer-second'>
-          <h2>Contact us</h2>
-          <h3>
-            for complaints and enquiries you can reach us on any of the numbers
+          <h3>Contact us</h3>
+          <p>
+            For complaints and enquiries you can reach us on any of the numbers
             or visit our head office at:
-          </h3>
+          </p>
+          <p>
+            <i class='far fa-phone-alt'></i> +2348064084005
+          </p>
+          <p>
+            <i class='far fa-envelope'></i> info@renglobals.com
+          </p>
         </div>
 
         <div className='footer-third'>
           <h3>Newsletter</h3>
           <form>
             <div className='footer-input'>
-              <input type='email' />
+              <input type='email' placeholder='Enter your email' />
               <button className='btn' type='submit'>
                 Submit
               </button>
             </div>
           </form>
           <p>
-            leave your email with us for information on our latest products and
+            Leave your email with us for information on our latest products and
             promo
           </p>
         </div>
