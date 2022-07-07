@@ -2,6 +2,7 @@ import React from 'react';
 import FinestCards from '../Components/Cards/FinestCards';
 import Footer from '../Components/Footer/Footer';
 import Navbar from '../Components/Navbar/Navbar';
+import Socials from '../Components/Socials/Socials';
 import './Home.scss';
 
 const Home = () => {
@@ -36,12 +37,13 @@ const Home = () => {
         {/* join us */}
         <section className='join-us'>
           <h3>Join Us Today</h3>
-          <button className='btn btn-success'>Contact us</button>
+          <button className='btn'>Contact us</button>
           <p>Begin your journey to becoming a property owner today</p>
           <hr />
         </section>
       </main>
       <Footer />
+      <Socials />
     </div>
   );
 };
