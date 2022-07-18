@@ -1,0 +1,16 @@
+.tc_main {
+  .tc_body {
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      height: 30vh;
+      color: #fff;
+    }
+    .tc_content {
+      padding: 4rem 10rem;
+    }
+  }
+}

@@ -92,31 +92,7 @@ const Navbar = () => {
             </li>
             {/* information */}
             <li class='nav-item dropdown'>
-              <a
-                class='nav-link dropdown-toggle'
-                href='#'
-                id='navbarDropdownMenuLink'
-                role='button'
-                data-bs-toggle='dropdown'
-                aria-expanded='false'
-              >
-                Information
-              </a>
-              <ul
-                class='dropdown-menu'
-                aria-labelledby='navbarDropdownMenuLink'
-              >
-                <li>
-                  <a class='dropdown-item' href='#'>
-                    Terms and Conditions
-                  </a>
-                </li>
-                <li>
-                  <a class='dropdown-item' href='#'>
-                    Client Partnership Scheme
-                  </a>
-                </li>
-              </ul>
+              <Link to='/t&c'>Terms&Conditions</Link>
             </li>
 
             <li class='nav-item'>
