@@ -23,7 +23,7 @@ const Footer = () => {
             or visit our head office at:
           </p>
           <p>
-            <i class='far fa-phone-alt'></i> +2348064084005
+            <i class='far fa-phone-alt'></i> +2349167194822, +2348145220426
           </p>
           <p>
             <i class='far fa-envelope'></i> info@renglobals.com

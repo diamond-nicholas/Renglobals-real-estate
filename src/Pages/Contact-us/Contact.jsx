@@ -58,6 +58,15 @@ const Contact = () => {
             <button className='btn'>Submit</button>
           </form>
         </section>
+        <section className='enquiries text-center'>
+          <h3>Enquiries Contacts</h3>
+          <p>
+            <i class='far fa-phone-alt'></i> +2349167194822, +2348145220426
+          </p>
+          <p>
+            <i class='far fa-envelope'></i> info@renglobals.com
+          </p>
+        </section>
       </div>
       <Footer />
       <Socials />
