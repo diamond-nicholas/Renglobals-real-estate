@@ -8,7 +8,7 @@ const Navbar = () => {
     <nav class='navbar navbar-expand-lg navbar-light'>
       <div class='container-fluid'>
         <a class='navbar-brand' href='#'>
-          RenGlobals
+          <Link to='/'>RG</Link>
         </a>
         <button
           class='navbar-toggler'
@@ -120,14 +120,10 @@ const Navbar = () => {
             </li>
 
             <li class='nav-item'>
-              <a class='nav-link' href='#'>
-                Contact
-              </a>
+              <Link to='/contact'>Contact</Link>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='#'>
-                <Link to='/about'>About us</Link>
-              </a>
+              <Link to='/about'>About us</Link>
             </li>
           </ul>
         </div>
