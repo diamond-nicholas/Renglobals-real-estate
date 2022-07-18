@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react';
 import './Nav.scss';
+import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -125,7 +126,7 @@ const Navbar = () => {
             </li>
             <li class='nav-item'>
               <a class='nav-link' href='#'>
-                About us
+                <Link to='/about'>About us</Link>
               </a>
             </li>
           </ul>
