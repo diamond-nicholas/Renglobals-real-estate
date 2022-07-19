@@ -5,13 +5,12 @@ import { Link } from 'react-router-dom';
 
 const Navbar = () => {
   return (
-    <nav class='navbar navbar-expand-lg navbar-light'>
+    <nav class='navbar navbar-expand-lg '>
       <div class='container-fluid'>
-        <a class='navbar-brand' href='#'>
-          <Link className='nav-link' to='/'>
-            RG
-          </Link>
-        </a>
+        <Link className='nav-link white' to='/'>
+          RG
+        </Link>
+
         <button
           class='navbar-toggler'
           type='button'
@@ -24,44 +23,44 @@ const Navbar = () => {
           <span class='navbar-toggler-icon'></span>
         </button>
         <div class='collapse navbar-collapse' id='navbarSupportedContent'>
-          <ul class='navbar-nav me-auto mb-2 mb-lg-0'>
+          <ul class=' navbar-nav me-auto mb-2 mb-lg-0'>
             <li class='nav-item'>
-              <Link className='nav-link' to='/hotdeals'>
+              <Link className='nav-link white' to='/hotdeals'>
                 Hot Deals
               </Link>
             </li>
             <li class='nav-item'>
-              <Link className='nav-link' to='/elite'>
+              <Link className='nav-link white' to='/elite'>
                 Elite Service Plans
               </Link>
             </li>
             {/* housing */}
             <li class='nav-item dropdown'>
-              <Link className='nav-link' to='/housing'>
+              <Link className='nav-link white' to='/housing'>
                 Housing
               </Link>
             </li>
             {/* estate */}
 
             <li class='nav-item dropdown'>
-              <Link className='nav-link' to='/estate'>
+              <Link className='nav-link white' to='/estate'>
                 Estates
               </Link>
             </li>
             {/* T&C */}
             <li class='nav-item dropdown'>
-              <Link className='nav-link' to='/t&c'>
+              <Link className='nav-link white' to='/t&c'>
                 Terms&Conditions
               </Link>
             </li>
 
             <li class='nav-item'>
-              <Link className='nav-link' to='/contact'>
+              <Link className='nav-link white' to='/contact'>
                 Contact
               </Link>
             </li>
             <li class='nav-item'>
-              <Link className='nav-link' to='/about'>
+              <Link className='nav-link white' to='/about'>
                 About us
               </Link>
             </li>
