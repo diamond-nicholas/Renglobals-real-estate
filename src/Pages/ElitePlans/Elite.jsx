@@ -23,14 +23,20 @@ const Elite = () => {
                 <input type='text' placeholder='Email' />
               </div>
               <div className='pros_client'>
-                <p>Are you a prospective/existing client?</p>
+                <p>
+                  {' '}
+                  <strong>Are you a prospective/existing client?</strong>
+                </p>
                 <select class='form-select' aria-label='Default select example'>
                   <option value='1'>Prospective Client</option>
                   <option value='2'>Existing Client</option>
                 </select>
               </div>
               <div className='contact_opt'>
-                <p>How would you preferred to be contacted?</p>
+                <p>
+                  {' '}
+                  <strong>How would you preferred to be contacted?</strong>
+                </p>
                 <div class='form-check form-check-inline'>
                   <input
                     class='form-check-input'
@@ -67,8 +73,10 @@ const Elite = () => {
               </div>
               <div className='would_you_love'>
                 <p>
-                  Would you love to get updates on our estate(pictures &
-                  videos)?
+                  <strong>
+                    Would you love to get updates on our estate(pictures &
+                    videos)?
+                  </strong>
                 </p>
                 <div class='form-check form-check-inline'>
                   <input
@@ -98,6 +106,10 @@ const Elite = () => {
               <button className='btn'>Submit</button>
             </div>
           </form>
+          <p>
+            <strong>For more infomation contact us on</strong> +2349167194822,
+            +2348145220426
+          </p>
         </section>
       </section>
       <Socials />

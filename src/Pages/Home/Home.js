@@ -4,6 +4,7 @@ import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/Navbar/Navbar';
 import Socials from '../../Components/Socials/Socials';
 import './Home.scss';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
   return (
@@ -16,10 +17,7 @@ const Home = () => {
             The largest real estate company for home owners, buyers and partners
           </h3>
           <h4>Making the incredible affordable</h4>
-          <p>
-            Begin your journey and become a property owner today{' '}
-            <span>contact us</span>
-          </p>
+          <p>Begin your journey and become a property owner today </p>
         </section>
 
         {/* finest properties */}

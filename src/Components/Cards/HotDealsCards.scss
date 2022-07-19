@@ -1,0 +1,30 @@
+.ht_wrapper {
+  border: 1px solid #e2e2e2;
+  border-radius: 5px;
+
+  .cards {
+    padding: 1rem;
+
+    .card_img {
+      border-bottom: 1px solid #e2e2e2;
+
+      img {
+        margin-bottom: 1rem;
+      }
+    }
+  }
+
+  .card_content {
+    margin-top: 1rem;
+
+    h3 {
+      color: #5a7c05;
+      font-size: 1.3rem;
+    }
+
+    button {
+      background: #5a7c05;
+      color: #fff;
+    }
+  }
+}

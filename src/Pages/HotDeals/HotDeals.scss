@@ -1,0 +1,22 @@
+.ht_main {
+  .ht_body {
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      height: 30vh;
+      color: #fff;
+    }
+
+    .ht_content {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      padding: 1rem;
+      grid-gap: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 2rem;
+    }
+  }
+}
