@@ -37,31 +37,9 @@ const Navbar = () => {
             </li>
             {/* housing */}
             <li class='nav-item dropdown'>
-              <a
-                class='nav-link dropdown-toggle'
-                href='#'
-                id='navbarDropdownMenuLink'
-                role='button'
-                data-bs-toggle='dropdown'
-                aria-expanded='false'
-              >
+              <Link className='nav-link' to='/housing'>
                 Housing
-              </a>
-              <ul
-                class='dropdown-menu'
-                aria-labelledby='navbarDropdownMenuLink'
-              >
-                <li>
-                  <a class='dropdown-item' href='#'>
-                    Video Series
-                  </a>
-                </li>
-                <li>
-                  <a class='dropdown-item' href='#'>
-                    Canberries Series
-                  </a>
-                </li>
-              </ul>
+              </Link>
             </li>
             {/* estate */}
 

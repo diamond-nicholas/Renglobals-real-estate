@@ -1,0 +1,23 @@
+.housing_main {
+  .housing_body {
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      height: 30vh;
+      color: #fff;
+    }
+
+    .housing_content {
+      padding: 2rem;
+
+      .housing_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+      }
+    }
+  }
+}
