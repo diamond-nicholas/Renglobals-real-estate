@@ -18,7 +18,18 @@ const Home = () => {
             The largest real estate company for home owners, buyers and partners
           </h3>
           <h4>Making the incredible affordable</h4>
-          <p>Begin your journey and become a property owner today </p>
+          <div className='wrapper'>
+            <p>
+              Begin your journey and become a property owner today{' '}
+              <span>
+                <button className='btn'>
+                  <Link className=' con' to='/contact'>
+                    Contact us
+                  </Link>
+                </button>
+              </span>
+            </p>
+          </div>
         </section>
 
         {/* finest properties */}
@@ -40,7 +51,11 @@ const Home = () => {
         {/* join us */}
         <section className='join-us'>
           <h3>Join Us Today</h3>
-          <button className='btn'>Contact us</button>
+          <button className='btn'>
+            <Link className=' con' to='/contact'>
+              Contact us
+            </Link>
+          </button>
           <p>Begin your journey to becoming a property owner today</p>
           <hr />
         </section>

@@ -16,7 +16,7 @@ const EstatesCards = () => {
             <strong>Imperial and Park Gardens</strong>
           </h4>
           <div className='pricing'>
-            <p>#3,000,000</p>
+            <p>₦3,000,000</p>
             <i class='fal fa-ruler-triangle'>600</i>
           </div>
         </div>

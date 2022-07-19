@@ -22,8 +22,27 @@
     color: #e5e5e5;
     margin-bottom: 1rem;
   }
-  p {
-    color: #e5e5e5;
+
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p {
+      color: #e5e5e5;
+
+      span {
+        button {
+          background: #5b7d04;
+          color: #fff;
+
+          .con {
+            color: #fff;
+            text-decoration: none;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -77,6 +96,12 @@
   button {
     background: #5b7d04;
     color: #fff;
+    margin-top: 1rem;
+
+    .con {
+      color: #fff;
+      text-decoration: none;
+    }
   }
 
   hr {
