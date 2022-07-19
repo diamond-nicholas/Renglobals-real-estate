@@ -8,7 +8,9 @@ const Navbar = () => {
     <nav class='navbar navbar-expand-lg navbar-light'>
       <div class='container-fluid'>
         <a class='navbar-brand' href='#'>
-          <Link to='/'>RG</Link>
+          <Link className='nav-link' to='/'>
+            RG
+          </Link>
         </a>
         <button
           class='navbar-toggler'
@@ -29,9 +31,9 @@ const Navbar = () => {
               </a>
             </li>
             <li class='nav-item'>
-              <a class='nav-link' href='#'>
+              <Link className='nav-link' to='/elite'>
                 Elite Service Plans
-              </a>
+              </Link>
             </li>
             {/* housing */}
             <li class='nav-item dropdown'>
@@ -92,14 +94,20 @@ const Navbar = () => {
             </li>
             {/* information */}
             <li class='nav-item dropdown'>
-              <Link to='/t&c'>Terms&Conditions</Link>
+              <Link className='nav-link' to='/t&c'>
+                Terms&Conditions
+              </Link>
             </li>
 
             <li class='nav-item'>
-              <Link to='/contact'>Contact</Link>
+              <Link className='nav-link' to='/contact'>
+                Contact
+              </Link>
             </li>
             <li class='nav-item'>
-              <Link to='/about'>About us</Link>
+              <Link className='nav-link' to='/about'>
+                About us
+              </Link>
             </li>
           </ul>
         </div>

@@ -1,8 +1,8 @@
 import React from 'react';
-import FinestCards from '../Components/Cards/FinestCards';
-import Footer from '../Components/Footer/Footer';
-import Navbar from '../Components/Navbar/Navbar';
-import Socials from '../Components/Socials/Socials';
+import FinestCards from '../../Components/Cards/FinestCards';
+import Footer from '../../Components/Footer/Footer';
+import Navbar from '../../Components/Navbar/Navbar';
+import Socials from '../../Components/Socials/Socials';
 import './Home.scss';
 
 const Home = () => {
