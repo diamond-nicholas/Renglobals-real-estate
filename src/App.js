@@ -6,6 +6,7 @@ import Terms from './Pages/T&C/Terms';
 import Elite from './Pages/ElitePlans/Elite';
 import HotDeals from './Pages/HotDeals/HotDeals';
 import Housing from './Pages/Housing/Housing';
+import Estate from './Pages/Estates/Estate';
 function App() {
   return (
     <Router>
@@ -17,6 +18,7 @@ function App() {
         <Route path='/elite' element={<Elite />} />
         <Route path='/hotdeals' element={<HotDeals />} />
         <Route path='/housing' element={<Housing />} />
+        <Route path='/estate' element={<Estate />} />
       </Routes>
     </Router>
   );

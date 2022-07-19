@@ -1,0 +1,23 @@
+.estate_main {
+  .estate_body {
+    header {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: #000;
+      height: 30vh;
+      color: #fff;
+    }
+
+    .estate_content {
+      padding: 2rem;
+
+      .estate_wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1rem;
+      }
+    }
+  }
+}

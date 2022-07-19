@@ -13,7 +13,6 @@ const Housing = () => {
           <header>
             <h3>Housing Series</h3>
           </header>
-
           <section className='housing_content'>
             <div className='housing_wrapper'>
               <HomeList />

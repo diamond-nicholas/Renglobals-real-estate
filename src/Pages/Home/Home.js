@@ -5,6 +5,7 @@ import Navbar from '../../Components/Navbar/Navbar';
 import Socials from '../../Components/Socials/Socials';
 import './Home.scss';
 import { Link } from 'react-router-dom';
+import EstatesCards from '../../Components/Cards/EstatesCards';
 
 const Home = () => {
   return (
@@ -27,9 +28,13 @@ const Home = () => {
             <p>with world class facilities and locations</p>
           </div>
           <div className='cards-wrapper'>
-            <FinestCards />
-            <FinestCards />
-            <FinestCards />
+            <EstatesCards />
+            <EstatesCards />
+            <EstatesCards />
+          </div>
+
+          <div className='btn_wrapper'>
+            <button className='btn'>Load More</button>
           </div>
         </section>
         {/* join us */}
