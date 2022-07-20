@@ -7,7 +7,7 @@ const Footer = () => {
       <section className='footer-wrapper'>
         <div className='footer-first'>
           <div className='footer-brand'>
-            <h3>Renglobals</h3>
+            <img src='R.LOGO 2.png' alt='' />
           </div>
           <h5>About Renglo</h5>
           <p>
