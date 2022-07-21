@@ -14,9 +14,15 @@ const HotDeals = () => {
             <h3>Hot Deals</h3>
           </header>
           <section className='ht_content'>
-            <HotDealsCards />
-            <HotDealsCards />
-            <HotDealsCards />
+            <div className='card1'>
+              <HotDealsCards />
+            </div>
+            <div className='card2'>
+              <HotDealsCards />
+            </div>
+            <div className='card3'>
+              <HotDealsCards />
+            </div>
           </section>
         </section>
       </div>

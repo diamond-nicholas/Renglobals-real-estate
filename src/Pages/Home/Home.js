@@ -1,5 +1,4 @@
 import React from 'react';
-import FinestCards from '../../Components/Cards/FinestCards';
 import Footer from '../../Components/Footer/Footer';
 import Navbar from '../../Components/Navbar/Navbar';
 import Socials from '../../Components/Socials/Socials';
@@ -39,9 +38,15 @@ const Home = () => {
             <p>with world class facilities and locations</p>
           </div>
           <div className='cards-wrapper'>
-            <EstatesCards />
-            <EstatesCards />
-            <EstatesCards />
+            <div className='card1'>
+              <EstatesCards />
+            </div>
+            <div className='card2'>
+              <EstatesCards />
+            </div>
+            <div className='card3'>
+              <EstatesCards />
+            </div>
           </div>
 
           <div className='btn_wrapper'>

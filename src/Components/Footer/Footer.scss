@@ -63,3 +63,28 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 968px) {
+  .footer-wrapper {
+    display: grid !important;
+
+    grid-template-areas:
+      'first first first'
+      'second second second'
+      'third third third';
+    .footer-first {
+      grid-area: first;
+      margin-bottom: 3rem;
+    }
+
+    .footer-second {
+      grid-area: second;
+      margin-bottom: 3rem;
+    }
+
+    .footer-third {
+      grid-area: third;
+      margin-bottom: 2rem;
+    }
+  }
+}
