@@ -15,9 +15,15 @@ const Housing = () => {
           </header>
           <section className='housing_content'>
             <div className='housing_wrapper'>
-              <HomeList />
-              <HomeList />
-              <HomeList />
+              <div className='card1'>
+                <HomeList />
+              </div>
+              <div className='card2'>
+                <HomeList />
+              </div>
+              <div className='card3'>
+                <HomeList />
+              </div>
             </div>
           </section>
         </section>

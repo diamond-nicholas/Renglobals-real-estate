@@ -15,7 +15,9 @@ const Estate = () => {
           </header>
           <section className='estate_content'>
             <div className='estate_wrapper'>
-              <EstatesCards />
+              <div className='card1'>
+                <EstatesCards />
+              </div>
             </div>
           </section>
         </section>

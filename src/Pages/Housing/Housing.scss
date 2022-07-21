@@ -21,3 +21,24 @@
     }
   }
 }
+
+@media screen and (max-width: 968px) {
+  .housing_wrapper {
+    grid-template-areas:
+      'area1 area1 area1'
+      'area2 area2 area2'
+      'area3 area3 area3';
+
+    .card1 {
+      grid-area: area1;
+    }
+
+    .card2 {
+      grid-area: area2;
+    }
+
+    .card3 {
+      grid-area: area3;
+    }
+  }
+}

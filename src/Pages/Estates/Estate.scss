@@ -21,3 +21,13 @@
     }
   }
 }
+
+@media screen and (max-width: 968px) {
+  .estate_wrapper {
+    grid-template-areas: 'area1 area1 area1';
+
+    .card1 {
+      grid-area: area1;
+    }
+  }
+}
