@@ -61,3 +61,13 @@
     }
   }
 }
+
+@media screen and (max-width: 968px) {
+  .feedback {
+    padding: 2rem 1rem !important;
+  }
+
+  form {
+    padding: 1rem !important;
+  }
+}
